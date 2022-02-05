@@ -1,0 +1,10 @@
+algo = input("digite algo")
+
+print("o tipo do dado digitado é {}".format(type(algo)))
+print("só tem espaços?{}".format(algo.isspace()))
+print("é um número?{}".format(algo.isnumeric()))
+print("è alfabético?{}".format(algo.isalpha()))
+print("è alfa_numérico?{}".format(algo.isalnum()))
+print("Está em maiusculas?{}".format(algo.isupper()))
+print("está em minuscúla?{}".format(algo.islower()))
+print("Está capitalisada?{}".format(algo.istitle()))
