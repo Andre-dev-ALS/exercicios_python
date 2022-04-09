@@ -1,0 +1,5 @@
+frase = str(input("Digite uma frase")).strip()
+frase2 = frase.replace("ã", "a").replace("â", "a").replace("á", "a").replace("à", "a")
+print(f"A letra A aparece {frase2.count('a')} vezes na frase")
+print(f"A primeira letra A aparece na posição {frase2.find('a')+1 - frase2.count(' ')}")
+print(f"A última letra A aparece na posição {frase2.rfind('a')+1 - frase2.count(' ')}")
